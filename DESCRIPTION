@@ -1,0 +1,21 @@
+Package: basicPred
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1
+Date: 2015-10-19
+Author: Who wrote it
+Maintainer: Philip Goddard <pmgoddard89@gmail.com>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyData: TRUE
+Imports:
+    caret,
+    methods,
+    ggplot2,
+    pROC,
+    reshape2
+Collate:
+    'modelPred_class.R'
+    'modelPred_accessors.R'
+    'modelPred_constructor.R'
+    'modelPred_generics.R'
